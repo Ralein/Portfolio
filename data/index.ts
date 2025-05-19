@@ -1,3 +1,6 @@
+import { link } from "fs";
+import { URL } from "next/dist/compiled/@edge-runtime/primitives/url";
+
 export const navItems = [
   { id: 1, name: "About", link: "#about" },
   { id: 2, name: "Projects", link: "#projects" }, // Ensure this link matches the section ID
@@ -137,14 +140,27 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    URL: "https://github.com/Ralein",
     img: "/git.svg",
+    name: "GitHub"
   },
   {
     id: 2,
+    URL: "https://x.com/NovaRalein37662", // Replace with your Twitter URL
     img: "/twit.svg",
+    name: "Twitter"
   },
   {
     id: 3,
+    URL: "https://www.linkedin.com/in/ralein-nova-r-l-30170b227/", // Replace with your LinkedIn URL
     img: "/link.svg",
+    name: "LinkedIn"
   },
+  {
+    id: 4,
+    URL: "https://www.instagram.com/remyxlee/", // Optional: Add Instagram if needed
+    img: "/insta.svg",
+    name: "Instagram"
+  }
+ 
 ];
