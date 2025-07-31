@@ -74,19 +74,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "LEVEL UP AI Assistant",
-    des: "Note-taking, task management, collaborative whiteboarding, chatbot",
+   title: "NOREL – NOn RELay on Paper",
+   des: "AI-powered, paperless identity sharing system using NFC/QR for tap-to-fill forms. Enables secure, offline-capable form automation in public services.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg","/c.svg"],
-    link: "https://github.com/Ralein/LEVEL_UP_AI_Assistant"
+    link: "https://norel-ralein.vercel.app/"
   },
   {
     id: 2,
-    title: "Focusflow Note-Making App",
-    des: "AI-powered note organization with categorization, search,voice-to-text, and text-to-speech features",
+    title: "Viola App",
+    des: "An inclusive learning platform for the deaf, blind, and mute community using Morse code, visuals, and vibrations",
     img: "/p1.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/convex.svg"],
-    link: "https://github.com/Ralein/focus-flow",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/pr.svg"],
+    link: "https://viola-app-ralein.vercel.app/",
   },
   {
     id: 3,
@@ -102,7 +102,7 @@ export const projects = [
     des: "Helps to convert wireframes into code and provides a visual representation of the design ",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fire.svg"],
-    link: "",
+    link: "https://novira-ai.vercel.app/",
   },
 ];
 

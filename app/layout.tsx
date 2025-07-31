@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo.png" sizes="any" />
       </head>
-      <body className={cn(inter.className, "bg-black text-neon-cyan")}>
+      <body className={cn(inter.className, "bg-black-100")}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

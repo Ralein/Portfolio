@@ -158,7 +158,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
         </span>
       </button>
     </div>
-    // remove the svg and add the button
+
     // <svg
     //   width="66"
     //   height="65"
