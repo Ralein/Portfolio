@@ -156,11 +156,5 @@ export const socialMedia = [
     img: "/link.svg",
     name: "LinkedIn"
   },
-  {
-    id: 4,
-    URL: "https://www.instagram.com/remyxlee/", // Optional: Add Instagram if needed
-    img: "/insta.svg",
-    name: "Instagram"
-  }
- 
+
 ];
